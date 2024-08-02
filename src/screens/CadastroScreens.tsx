@@ -1,6 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
+import { useState } from "react";
 
 function Cadastro():React.JSX.Element{
     const navigation = useNavigation();
