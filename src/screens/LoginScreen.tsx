@@ -17,7 +17,7 @@ function Login():React.JSX.Element{
                 <TouchableOpacity style={styles.inputlogin}><Text >Log in</Text></TouchableOpacity> 
                 <TouchableOpacity ><Text style={styles.forgotpassword}>Esqueci a Senha!</Text></TouchableOpacity>     
                  <Text style={styles.conta}>Não Tem Conta?</Text>      
-                <TouchableOpacity style={styles.criar}><Text style={styles.textalign}>Criar</Text></TouchableOpacity>     
+                <TouchableOpacity style={styles.criar} onPress={navigation.navigate('cadastro')}><Text style={styles.textalign}>Criar</Text></TouchableOpacity>     
                        
                        
                        
